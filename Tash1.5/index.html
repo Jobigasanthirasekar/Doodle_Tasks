@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-box">CE</span>
+            <span>Campus Events</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#events">Events</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#register" class="nav-btn">Register</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <p class="subtitle">CAMPUS LIFE · 2026</p>
+            <h1>Discover. Participate. Grow.</h1>
+            <p>
+                Explore technical, cultural and sports events
+                happening on our campus.
+            </p>
+            <a href="#events" class="btn">Explore Events →</a>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section id="events" class="events-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Upcoming Events</h2>
+                    <p>Don't miss out on the latest campus activities.</p>
+                </div>
+                <a href="#schedule" class="schedule-link">
+                    View Schedule →
+                </a>
+            </div>
+
+            <div class="event-cards">
+
+                <div class="event-card">
+                    <div class="event-banner tech">TECH</div>
+                    <div class="event-content">
+                        <span class="tag">Technical</span>
+                        <h3>Tech Fest 2026</h3>
+                        <p>October 15, 2026 · Auditorium</p>
+                        <p>Explore innovation and showcase your technical skills.</p>
+                        <a href="#register" class="btn">Register</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-banner culture">CULTURE</div>
+                    <div class="event-content">
+                        <span class="tag">Cultural</span>
+                        <h3>Cultural Day</h3>
+                        <p>October 20, 2026 · Main Hall</p>
+                        <p>Celebrate music, dance and art performances.</p>
+                        <a href="#register" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-banner sports">SPORTS</div>
+                    <div class="event-content">
+                        <span class="tag">Sports</span>
+                        <h3>Inter-College Sports Meet</h3>
+                        <p>October 28, 2026 · Sports Ground</p>
+                        <p>Compete, collaborate and showcase sportsmanship.</p>
+                        <a href="#register" class="btn">View Details</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Event Categories -->
+        <section id="about" class="categories-section">
+            <h2>Event Categories</h2>
+
+            <div class="category-list">
+                <div class="category">💻 Technical Events</div>
+                <div class="category">♫ Cultural Events</div>
+                <div class="category">🏆 Sports Events</div>
+                <div class="category">👥 Workshops &amp; Seminars</div>
+            </div>
+        </section>
+
+        <!-- Event Schedule -->
+        <section id="schedule" class="schedule-section">
+            <h2>Event Schedule</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Event Name</th>
+                            <th>Date</th>
+                            <th>Venue</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Tech Fest 2026</td>
+                            <td>Oct 15, 2026</td>
+                            <td>Auditorium</td>
+                            <td>Technical</td>
+                        </tr>
+
+                        <tr>
+                            <td>Cultural Day</td>
+                            <td>Oct 20, 2026</td>
+                            <td>Main Hall</td>
+                            <td>Cultural</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sports Meet</td>
+                            <td>Oct 28, 2026</td>
+                            <td>Sports Ground</td>
+                            <td>Sports</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Registration Form -->
+        <section id="register" class="registration">
+            <h2>Event Registration</h2>
+
+            <form action="#" method="get">
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+                        <label for="fullname">Full Name *</label>
+                        <input type="text" id="fullname"
+                            placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email"
+                            placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone"
+                            placeholder="Enter phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="event">Choose an Event *</label>
+                        <select id="event" required>
+                            <option value="">Select an event</option>
+                            <option>Tech Fest 2026</option>
+                            <option>Cultural Day</option>
+                            <option>Sports Meet</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="agreement">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">
+                        I agree to the event rules and regulations.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn">Register</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Campus Events</h3>
+        <p>
+            Bringing students together through learning,
+            creativity and collaboration.
+        </p>
+        <p>© 2026 Campus Events</p>
+    </footer>
+
+</body>
+</html>
