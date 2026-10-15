@@ -1,5 +1,5 @@
 
-/* 1. Common CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,14 +23,14 @@ a {
     color: inherit;
 }
 
-/* 2. Main Container */
+
 .container {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/* 3. Navbar */
+
 .navbar {
     background-color: white;
     padding: 15px 5%;
@@ -91,8 +91,6 @@ nav a:hover {
 }
 
 
-
-
 .top {
     background: linear-gradient(120deg, #e0f2fe, #dbeafe);
     padding: 38px 28px;
@@ -113,7 +111,7 @@ nav a:hover {
     margin-bottom: 8px;
 }
 
-/* 6. Upcoming Events */
+
 .events_section {
     margin-top: 32px;
 }
@@ -337,45 +335,4 @@ footer p {
 footer .copyright {
     margin-top: 10px;
     color: #94a3b8;
-}
-
-/* 12. Mobile Responsive Design */
-@media (max-width: 700px) {
-
-    .navbar {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    nav {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 12px;
-    }
-
-    .hero h1 {
-        font-size: 27px;
-    }
-
-    .event-cards {
-        grid-template-columns: 1fr;
-    }
-
-    .category-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .form-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .section-heading {
-        align-items: flex-start;
-    }
-
-    th,
-    td {
-        padding: 10px;
-        white-space: nowrap;
-    }
 }
