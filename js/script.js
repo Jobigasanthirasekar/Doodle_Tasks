@@ -1,4 +1,4 @@
- // module 1-10 
+ // module 1-5
 //first prg of js-->  eg of comments section
 console.log("Hello,world");
 console.log(10+1);
